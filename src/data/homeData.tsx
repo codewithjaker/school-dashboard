@@ -24,6 +24,7 @@ import {
   IoCalendarOutline,
   IoStatsChartOutline,
   IoFootballOutline,
+  IoBackspace,
 } from "react-icons/io5";
 
 import {
@@ -51,6 +52,7 @@ import {
   RiUserSettingsLine,
   RiBuildingLine,
 } from "react-icons/ri";
+import { Backpack } from "lucide-react";
 
 export const menuData = [
   {
@@ -904,6 +906,13 @@ export const menuData = [
         sub_module_icon: <MdSystemUpdate />,
         sub_module_display_name: "System Logs",
         href: "/settings/system-logs",
+      },
+      {
+        sub_module_id: 300,
+        sub_module_name: "Backup Restore",
+        sub_module_icon: <IoBackspace />,
+        sub_module_display_name: "Backup Restore",
+        href: "/settings/backup-restore",
       },
     ],
   },
