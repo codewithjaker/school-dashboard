@@ -32,6 +32,7 @@ import {
   BiBookAdd,
   BiClipboard,
   BiCalendarCheck,
+  BiNotification,
 } from "react-icons/bi";
 
 import { FiUsers, FiBookOpen, FiFilePlus, FiTrello } from "react-icons/fi";
@@ -42,6 +43,7 @@ import {
   MdOutlineDirectionsBus,
   MdOutlinePayments,
   MdOutlineSportsBasketball,
+  MdSystemUpdate,
 } from "react-icons/md";
 
 import {
@@ -889,6 +891,14 @@ export const menuData = [
         sub_module_display_name: "Academic Rules",
         href: "/settings/academic-rules",
       },
+      {
+        sub_module_id: 288,
+        sub_module_name: "Notification Settings",
+        sub_module_icon: <BiNotification />,
+        sub_module_display_name: "Notification Settings",
+        href: "/settings/notification-settings",
+      },
+    
     ],
   },
 ];
