@@ -96,7 +96,7 @@ export const menuData = [
     ],
   },
   {
-    module_id: 101,
+    module_id: 151,
     module_name: "Front Office",
     icon: <AiOutlineDashboard />,
     submodules: [
@@ -460,7 +460,7 @@ export const menuData = [
     ],
   },
   {
-    module_id: 108,
+    module_id: 109,
     module_name: "Human Resources",
     icon: <BiUserCircle />,
     submodules: [
@@ -530,7 +530,7 @@ export const menuData = [
     ],
   },
   {
-    module_id: 109,
+    module_id: 119,
     module_name: "Departments",
     icon: <RiBuildingLine />,
     submodules: [
@@ -898,7 +898,13 @@ export const menuData = [
         sub_module_display_name: "Notification Settings",
         href: "/settings/notification-settings",
       },
-    
+      {
+        sub_module_id: 289,
+        sub_module_name: "System Logs",
+        sub_module_icon: <MdSystemUpdate />,
+        sub_module_display_name: "System Logs",
+        href: "/settings/system-logs",
+      },
     ],
   },
 ];
